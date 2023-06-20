@@ -30,6 +30,10 @@
             <label for="purpose">Manfaat</label>
             <input type="text" name="purpose" id="purpose" class="form-control" rows="4" cols="50">
         </div>
+<<<<<<< HEAD
+        <a href="{{ route('crops.index') }}" class="btn btn-secondary">Back</a>
+=======
+>>>>>>> 7bc9d73bf754c40b2965e1f20151eaa1e9eff1a6
         <button type="submit" class="btn btn-primary">Save</button>
     </form>
 @endsection

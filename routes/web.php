@@ -4,6 +4,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CropsController;
 use App\Http\Controllers\FarmerController;
 use App\Http\Controllers\LoginController;
+<<<<<<< HEAD
+use App\Http\Controllers\CropFarmerController;
+use App\Http\Controllers\ReportController;
+=======
+>>>>>>> 7bc9d73bf754c40b2965e1f20151eaa1e9eff1a6
 
 /*
 |--------------------------------------------------------------------------
@@ -40,4 +45,17 @@ Route::middleware('auth')->group(function () {
     Route::get('/farmers/{id}/edit', [FarmerController::class, 'edit'])->name('farmers.edit');
     Route::put('/farmers/{id}', [FarmerController::class, 'update'])->name('farmers.update');
     Route::delete('/farmers/{id}', [FarmerController::class, 'destroy'])->name('farmers.destroy');
+<<<<<<< HEAD
+
+    Route::get('/cropfarmers', [CropFarmerController::class, 'index'])->name('cropfarmers.index');
+    Route::get('/cropfarmers/create', [CropFarmerController::class, 'create'])->name('cropfarmers.create');
+    Route::post('/cropfarmers', [CropFarmerController::class, 'store'])->name('cropfarmers.store');
+    Route::get('/cropfarmers/{cropfarmer}', [CropFarmerController::class, 'show'])->name('cropfarmers.show');
+    Route::get('/cropfarmers/{cropfarmer}/edit', [CropFarmerController::class, 'edit'])->name('cropfarmers.edit');
+    Route::put('/cropfarmers/{cropfarmer}', [CropFarmerController::class, 'update'])->name('cropfarmers.update');
+    Route::delete('/cropfarmers/{cropfarmer}', [CropFarmerController::class, 'destroy'])->name('cropfarmers.destroy');
+
+    Route::get('/reports/crop-farmer', [ReportController::class, 'cropFarmerReport'])->name('reports.crop_farmer');
+=======
+>>>>>>> 7bc9d73bf754c40b2965e1f20151eaa1e9eff1a6
 });

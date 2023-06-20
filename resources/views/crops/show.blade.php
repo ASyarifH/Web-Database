@@ -32,6 +32,10 @@
             </tr>
         </tbody>
     </table>
+<<<<<<< HEAD
+    <a href="{{ route('crops.index') }}" class="btn btn-secondary">Back</a>
+=======
+>>>>>>> 7bc9d73bf754c40b2965e1f20151eaa1e9eff1a6
 @endsection
 
 

@@ -23,11 +23,22 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{'/crops'}}">List Tanaman</a></li>
+<<<<<<< HEAD
+                            <li><a class="dropdown-item" href="{{'/farmers'}}">List Pekerja</a></li>
+                            <li><a class="dropdown-item" href="{{'/cropfarmers'}}">Budidaya Tanaman</a></li>
+=======
                             <li><a class="dropdown-item" href="{{'/farmers'}}">List Petani</a></li>
+>>>>>>> 7bc9d73bf754c40b2965e1f20151eaa1e9eff1a6
                         </ul>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
+<<<<<<< HEAD
+                    <li>
+                        <a class="nav-link active" aria-current="page" href="{{ route('reports.crop_farmer') }}">Laporan</a>
+                    </li>
+=======
+>>>>>>> 7bc9d73bf754c40b2965e1f20151eaa1e9eff1a6
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/logout">Logout</a>
                     </li>

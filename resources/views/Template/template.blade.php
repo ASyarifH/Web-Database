@@ -16,6 +16,11 @@
         <div class="container">
             <a class="navbar-brand" href="#">Agrikultura</a>
             <div class="collapse navbar-collapse" id="navbarScroll">
+<<<<<<< HEAD
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+=======
                 <ul class="navbar-nav me-auto my-2 my-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{'/'}}">Home</a>
@@ -24,6 +29,7 @@
                 <ul class="navbar-nav ms-auto my-2 my-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/login">Login</a>
+>>>>>>> 7bc9d73bf754c40b2965e1f20151eaa1e9eff1a6
                     </li>
                 </ul>
             </div>
